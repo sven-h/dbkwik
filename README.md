@@ -13,5 +13,6 @@ resulting large-scale knowledge graph is complementary to DBpedia.
   - [DBkWik interwiki](https://github.com/sven-h/dbkwik/tree/master/e_gold_mapping_interwiki/gold)
   - [to the corresponding unprocessed dumps](http://data.dws.informatik.uni-mannheim.de/dbkwik/KGs_for_gold_standard.tar.gz)
 - to a csv file with all wikis available in Wikia/Fandom: [Link](http://data.dws.informatik.uni-mannheim.de/dbkwik/2018-03-fandom_statistics.csv)
-- to the unprocessed wiki dumps: [Link](http://data.dws.informatik.uni-mannheim.de/dbkwik/dbkwik-v1.0.tar.gz)
-- to the processed dump: [Link](http://data.dws.informatik.uni-mannheim.de/dbkwik/dbkwik_fusion-v1.0.tar.gz)
+- to the [unprocessed wiki dumps](http://data.dws.informatik.uni-mannheim.de/dbkwik/dbkwik-v1.0.tar.gz)
+- to the [processed dump](http://data.dws.informatik.uni-mannheim.de/dbkwik/dbkwik_fusion-v1.0.tar.gz)
+- to the [MTurk survey example](http://htmlpreview.github.io/?https://github.com/sven-h/dbkwik/blob/master/e_gold_mapping_interwiki/mTurk_Mapping_example.html) (it can be also found [in folder e_gold_mapping_interwiki](https://github.com/sven-h/dbkwik/tree/master/e_gold_mapping_interwiki))
