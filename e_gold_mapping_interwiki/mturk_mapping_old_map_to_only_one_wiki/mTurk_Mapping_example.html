@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titel</title>
+  </head>
+  <body>
+
+
+
+<form name="mturk_form" method="post" id="mturk_form" action="http://localhost:8000/">
+
+
+
+<!-- HIT template: Survey-v3.0 --><!-- The following snippet enables the 'responsive' behavior on smaller screens -->
+<meta content="width=device-width,initial-scale=1" name="viewport" />
+<section class="container" id="Survey"><!-- Instructions -->
+<div class="row">
+<div class="col-xs-12 col-md-12">
+<div class="panel panel-primary"><!-- WARNING: the ids "collapseTrigger" and "instructionBody" are being used to enable expand/collapse feature --><a class="panel-heading" href="javascript:void(0);" id="collapseTrigger"><strong>Survey Instructions</strong> <span class="collapse-text">(Click to expand)</span> </a>
+<div class="panel-body" id="instructionBody">
+<p>Hello, <br/>
+thank you for participating in our survey.<br/>
+It is about finding a corresponding wiki page of one wiki in another similar wiki.<br/>
+You can use the search functionality of the wiki itself, using google or any other search strategy.<br/>
+Please note that the page can be named in a different way (<i>USA</i> can be also matched to <i>United States</i> or <i>America</i>).<br/>
+Use a recent version of Chrome, Firefox, Internet Explorer or Opera for this survey.</br>
+<br/>
+Following a small <b>example</b>:
+<br/>
+<br/>
+Find a similar page (given below) from wiki &quot;<a target="_blank" href="http://starwars.wikia.com">Starwars</a>&quot; to the similar wiki &quot;<a target="_blank" href="http://jedipedia.wikia.com">Jedipedia</a>&quot;.<br/>
+All answers have to start with &quot;<b>http://starwars.wikia.com/wiki/</b>&quot; or the &quot;<b>No matching article</b>&quot; option should be selected.</br>
+<ol>
+<li>
+    <a target="_blank" href="http://starwars.wikia.com/wiki/Luke_Skywalker">http://starwars.wikia.com/wiki/Luke_Skywalker</a> with title &quot;Luke Skywalker&quot;
+    <div class="input-group">
+      <input type="text" class="form-control" name="example_mapping" value="http://jedipedia.wikia.com/wiki/Luke_Skywalker" disabled>
+      <span class="input-group-addon"><label><input  type="checkbox" value="" disabled> No matching article</label></span>
+    </div> 
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://jedipedia.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://jedipedia.wikia.com/wiki/Special:Search?query=Luke+Skywalker">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://jedipedia.wikia.com+Luke+Skywalker">search with Google</a>
+</li>
+
+</ol>
+
+</p>
+</div>
+</div>
+</div>
+</div>
+<!-- End Instructions --><!-- Survey Layout -->
+<div class="row" id="workContent">
+<div class="col-xs-12 col-md-12">
+<div class="panel panel-default">
+<div class="panel-body">
+
+Find a similar page (given below) from wiki &quot;<a target="_blank" href="http://peace.wikia.com">Peace Wiki</a>&quot; to the similar wiki &quot;<a target="_blank" href="http://delphi.wikia.com">Delphi Wiki</a>&quot;.</br>
+All answers have to start with &quot;<b>http://delphi.wikia.com/wiki/</b>&quot; or the &quot;<b>No matching article</b>&quot; option should be selected.</br>
+</br>
+
+<ol>
+
+<li>
+    <a target="_blank" href="http://peace.wikia.com/wiki/Cyber_Retreat">http://peace.wikia.com/wiki/Cyber_Retreat</a> with title &quot;Cyber Retreat&quot;
+    <div class="input-group">
+      <input type="text" class="form-control" name="0_mapping" value="http://delphi.wikia.com/wiki/..." required pattern="http://delphi.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div> 
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://delphi.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://delphi.wikia.com/wiki/Special:Search?query=Cyber+Retreat">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://delphi.wikia.com+Cyber+Retreat">search with Google</a>
+</li>
+</br>
+
+<li>
+    <a target="_blank" href="http://peace.wikia.com/wiki/Yosy">http://peace.wikia.com/wiki/Yosy</a> with title &quot;Yosy&quot;
+    <div class="input-group">
+      <input type="text" class="form-control" name="0_mapping" value="http://delphi.wikia.com/wiki/..." required pattern="http://delphi.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div> 
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://delphi.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://delphi.wikia.com/wiki/Special:Search?query=Yosy">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://delphi.wikia.com+Yosy">search with Google</a>
+</li>
+</br>
+
+<li>
+    <a target="_blank" href="http://peace.wikia.com/wiki/Zen_Oleary">http://peace.wikia.com/wiki/Zen_Oleary</a> with title &quot;Zen Oleary&quot;
+    <div class="input-group">
+      <input type="text" class="form-control" name="0_mapping" value="http://delphi.wikia.com/wiki/..." required pattern="http://delphi.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div> 
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://delphi.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://delphi.wikia.com/wiki/Special:Search?query=Zen+Oleary">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://delphi.wikia.com+Zen+Oleary">search with Google</a>
+</li>
+</br>
+
+<li>
+    <a target="_blank" href="http://peace.wikia.com/wiki/Triple_Dorje">http://peace.wikia.com/wiki/Triple_Dorje</a> with title &quot;Triple Dorje&quot;
+    <div class="input-group">
+      <input type="text" class="form-control" name="0_mapping" value="http://delphi.wikia.com/wiki/..." required pattern="http://delphi.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div> 
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://delphi.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://delphi.wikia.com/wiki/Special:Search?query=Triple+Dorje">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://delphi.wikia.com+Triple+Dorje">search with Google</a>
+</li>
+</br>
+
+<li>
+    <a target="_blank" href="http://peace.wikia.com/wiki/Tmxxine">http://peace.wikia.com/wiki/Tmxxine</a> with title &quot;Tmxxine&quot;
+    <div class="input-group">
+      <input type="text" class="form-control" name="0_mapping" value="http://delphi.wikia.com/wiki/..." required pattern="http://delphi.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div> 
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://delphi.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://delphi.wikia.com/wiki/Special:Search?query=Tmxxine">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://delphi.wikia.com+Tmxxine">search with Google</a>
+</li>
+</br>
+
+<li>
+    <a target="_blank" href="http://peace.wikia.com/wiki/Open_Up">http://peace.wikia.com/wiki/Open_Up</a> with title &quot;Open Up&quot;
+    <div class="input-group">
+      <input type="text" class="form-control" name="0_mapping" value="http://delphi.wikia.com/wiki/..." required pattern="http://delphi.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div> 
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://delphi.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://delphi.wikia.com/wiki/Special:Search?query=Open+Up">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://delphi.wikia.com+Open+Up">search with Google</a>
+</li>
+</br>
+
+<li>
+    <a target="_blank" href="http://peace.wikia.com/wiki/Under_Construction2">http://peace.wikia.com/wiki/Under_Construction2</a> with title &quot;Under Construction2&quot;
+    <div class="input-group">
+      <input type="text" class="form-control" name="0_mapping" value="http://delphi.wikia.com/wiki/..." required pattern="http://delphi.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div> 
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://delphi.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://delphi.wikia.com/wiki/Special:Search?query=Under+Construction2">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://delphi.wikia.com+Under+Construction2">search with Google</a>
+</li>
+</br>
+
+<li>
+    <a target="_blank" href="http://peace.wikia.com/wiki/Color_Infection">http://peace.wikia.com/wiki/Color_Infection</a> with title &quot;Color Infection&quot;
+    <div class="input-group">
+      <input type="text" class="form-control" name="0_mapping" value="http://delphi.wikia.com/wiki/..." required pattern="http://delphi.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div> 
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://delphi.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://delphi.wikia.com/wiki/Special:Search?query=Color+Infection">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://delphi.wikia.com+Color+Infection">search with Google</a>
+</li>
+</br>
+
+<li>
+    <a target="_blank" href="http://peace.wikia.com/wiki/Peace_Art_4">http://peace.wikia.com/wiki/Peace_Art_4</a> with title &quot;Peace Art 4&quot;
+    <div class="input-group">
+      <input type="text" class="form-control" name="0_mapping" value="http://delphi.wikia.com/wiki/..." required pattern="http://delphi.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div> 
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://delphi.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://delphi.wikia.com/wiki/Special:Search?query=Peace+Art+4">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://delphi.wikia.com+Peace+Art+4">search with Google</a>
+</li>
+</br>
+
+<li>
+    <a target="_blank" href="http://peace.wikia.com/wiki/Xperiment">http://peace.wikia.com/wiki/Xperiment</a> with title &quot;Xperiment&quot;
+    <div class="input-group">
+      <input type="text" class="form-control" name="0_mapping" value="http://delphi.wikia.com/wiki/..." required pattern="http://delphi.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div> 
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://delphi.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://delphi.wikia.com/wiki/Special:Search?query=Xperiment">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://delphi.wikia.com+Xperiment">search with Google</a>
+</li>
+</br>
+
+
+</ol>
+
+</div>
+</div>
+
+</div>
+</div>
+<!-- End Survey Layout --></section>
+<!-- Please note that Bootstrap CSS/JS and JQuery are 3rd party libraries that may update their url/code at any time. Amazon Mechanical Turk (MTurk) is including these libraries as a default option for you, but is not responsible for any changes to the external libraries --><!-- External CSS references -->
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" rel="stylesheet" /><!-- Open internal style sheet -->
+
+<style type="text/css">
+#collapseTrigger{
+  color:#fff;
+  display: block;
+  text-decoration: none;
+}
+#submitButton{
+  white-space: normal;
+}
+.form-horizontal .control-label{
+  text-align: left
+}
+
+</style>
+<!-- Close internal style sheet -->
+
+<!-- External JS references -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Open internal javascript --><script>
+  $(document).ready(function() {
+    // Instructions expand/collapse
+    var content = $('#instructionBody');
+    var trigger = $('#collapseTrigger');
+    content.hide();
+    $('.collapse-text').text('(Click to expand)');
+    trigger.click(function(){
+      content.toggle();
+      var isVisible = content.is(':visible');
+      if(isVisible){
+        $('.collapse-text').text('(Click to collapse)');
+      }else{
+        $('.collapse-text').text('(Click to expand)');
+      }
+    });    
+    // end expand/collapse
+    //$('#mturk_form').validator();
+    $('.matching_article').change(function(){
+        if ($(this).is(':checked') == true){
+            $(this).closest( ".input-group" ).find(".form-control").val('').prop('disabled', true);
+        } else {
+            $(this).closest( ".input-group" ).find(".form-control").val('http://delphi.wikia.com/wiki/...').prop('disabled', false);
+        }
+    });//console.log(
+    
+    
+  });
+
+</script><!-- CLose internal javascript -->
+<input type="submit" id="submitButton" class="btn btn-primary" value="Submit">
+</form>
+
+  </body>
+</html>

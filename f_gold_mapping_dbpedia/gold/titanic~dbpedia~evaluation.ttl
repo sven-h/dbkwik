@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>
+    <Ontology rdf:about="titanic">
+      <location>http://dbkwik.webdatacommons.org/titanic</location>
+    </Ontology>
+  </onto1>
+  <onto2>
+    <Ontology rdf:about="dbpedia">
+      <location>http://dbpedia.org</location>
+    </Ontology>
+  </onto2>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/class/Book"/>
+      <entity2 rdf:resource="http://dbpedia.org/ontology/Book"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/class/Event"/>
+      <entity2 rdf:resource="http://dbpedia.org/ontology/Event"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/class/Lifeboat"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/class/Movie"/>
+      <entity2 rdf:resource="http://dbpedia.org/ontology/Film"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/class/Person"/>
+      <entity2 rdf:resource="http://dbpedia.org/ontology/Person"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/class/Room"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/class/Survivor"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/class/Victim"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/class/ship"/>
+      <entity2 rdf:resource="http://dbpedia.org/ontology/Ship"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/property/armament"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/armament"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/property/beam"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/beam"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/property/burialLocation"/>
+      <entity2 rdf:resource="http://dbpedia.org/ontology/placeOfBurial"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/property/capacity"/>
+      <entity2 rdf:resource="http://dbpedia.org/ontology/capacity"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/property/caption"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/caption"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/property/complement"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/complement"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/property/deck"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/deck"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/property/director"/>
+      <entity2 rdf:resource="http://dbpedia.org/ontology/director"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/property/isbn"/>
+      <entity2 rdf:resource="http://dbpedia.org/ontology/isbn"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/property/laidDown"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/laidDown"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/property/nickname"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/nickname"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/property/operator"/>
+      <entity2 rdf:resource="http://dbpedia.org/ontology/operator"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/property/power"/>
+      <entity2 rdf:resource="http://dbpedia.org/ontology/power"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/property/precededBy"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/precededBy"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/property/publisher"/>
+      <entity2 rdf:resource="http://dbpedia.org/ontology/publisher"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/property/releaseDate"/>
+      <entity2 rdf:resource="http://dbpedia.org/ontology/releaseDate"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/property/runtime"/>
+      <entity2 rdf:resource="http://dbpedia.org/ontology/runtime"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/property/screenplay"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/screenplay"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/property/speed"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/speed"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/property/story"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/story"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/property/studio"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/studio"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/resource/Archibald_Butt"/>
+      <entity2 rdf:resource="http://dbpedia.org/resource/Archibald_Butt"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/resource/Arrol_Gantry"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/resource/Collapsible_B_Steward_(from_1997_Film)"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/resource/First_Class_Smoke_Room"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/resource/Francis_Davis_Millet"/>
+      <entity2 rdf:resource="http://dbpedia.org/resource/Francis_Davis_Millet"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/resource/Frank_Port"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/resource/Kenneth_Barnes"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/resource/Laura_Mae_Cribb"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/resource/Madeleine_Talmadge_Force_Astor"/>
+      <entity2 rdf:resource="http://dbpedia.org/resource/Madeleine_Astor"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/resource/Margaret_Bechstein_Hays"/>
+      <entity2 rdf:resource="http://dbpedia.org/resource/Margaret_Bechstein_Hays"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/resource/Second_Class_Dining_Room"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/resource/Titanic:_Honor_and_Glory"/>
+      <entity2 rdf:resource="http://dbpedia.org/resource/Titanic:_Honor_and_Glory"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/resource/Titanic:_The_Investigation_Begins"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/resource/Unnamed_Seaman_2_(from_2012_Miniseries)"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/resource/William_Jameson"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/titanic/resource/William_McCarthy"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+</Alignment>
+</rdf:RDF>

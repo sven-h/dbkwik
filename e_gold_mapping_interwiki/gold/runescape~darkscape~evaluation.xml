@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>
+    <Ontology rdf:about="runescape">
+      <location>http://runescape.wikia.com</location>
+    </Ontology>
+  </onto1>
+  <onto2>
+    <Ontology rdf:about="darkscape">
+      <location>http://darkscape.wikia.com</location>
+    </Ontology>
+  </onto2>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Body_helmet"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Body_helmet"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Chief_Tess"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Chief_Tess"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Saradomin_body"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Saradomin_body"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Trinket_of_sealification"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Fire_giant"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Fire_giant"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Rune_arrow"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Rune_arrow"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Berserker_ring"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Berserker_ring"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Replica_statue_piece"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Replica_statue_piece"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Warpriest_of_Armadyl_armour"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Berserker_shield"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Berserker_shield"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Herblore_training"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Herblore_training"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Pharaoh's_sceptre"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Pharaoh%27s_sceptre"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Woodcutting_urn"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Woodcutting_urn"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Healer_lvl_4"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Healer_lvl_4"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Juju_mining_potion"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Juju_mining_potion"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Rune_kiteshield"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Rune_kiteshield"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Transcript:Creature_of_Fenkenstrain"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Hydra"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Hydra"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Blast_fusion_hammer"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Blast_fusion_hammer"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Extreme_ranging"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Extreme_ranging"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Bearded_gorilla_bones"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Ancient_Magicks"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Ancient_Magicks"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Cupric_sulphate"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Cupric_sulphate"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Mithril_2h_sword"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Mithril_2h_sword"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Rune_heraldic_armour_set_3_(lg)"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Rune_heraldic_armour_set_3_(lg)"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Tirannwn_achievements"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/The_Lost_Melody"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Rise_from_the_ashes_scroll"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Lord_Rologarth"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Lord_Rologarth"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Dark_bow"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Dark_bow"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Green_crystal"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Monster_killing"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Monster_killing"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Fire_giant_bone"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Fire_giant_bone"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Ancient_platelegs"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Monkey_talisman"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Monkey_talisman"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Prayer"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Prayer"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Short_vine"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Short_vine"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Insulated_boots"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Insulated_boots"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Lunar_ring"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Lunar_ring"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Honour_Points"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Dragonfire"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Dragonfire"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Razvan"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Razvan"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Seers%27_Village"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Seers%27_Village"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Leaf-bladed_weapon"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Shade"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Blurberry%27s_Bar"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Blurberry%27s_Bar"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Translated_notes"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Translated_notes"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Laughing_Miner_Pub"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Laughing_Miner_Pub"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/2014"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/2014"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Lumbridge_and_Draynor_Tasks"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Davon%27s_Amulet_Store"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Davon%27s_Amulet_Store"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Digsite"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Digsite"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Fungicide"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Rune_full_helm_(Guthix)"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Guthix_full_helm"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Emerald_bolts"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Emerald_bolts"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Fairy_Queen"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Fairy_Queen"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Jekyll_and_Hyde"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Jekyll_and_Hyde"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Bouncer"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Void_Knight_equipment"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Void_Knight_equipment"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Ranged_potion_set"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Ranged_potion_set"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Member_of_the_Godless"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Member_of_the_Godless"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Mahogany_table"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Mahogany_table"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Adamant_shield_(h3)"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Adamant_shield_(h3)"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Argonite_boots"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Argonite_boots"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Guthix_cape"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Guthix_cape"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Clan_Trahaearn_cape"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Clan_Trahaearn_cape"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/TzHaar-Hur-Roh"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/TzHaar-Hur-Roh"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Soaked_kindling"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Soaked_kindling"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Slayer%27s_respite_(m)"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Slayer's_respite_(m)"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Little_worldbearer"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Little_worldbearer"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Blessed_pot_(complete)"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Blessed_pot_(complete)"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Shadow_diamond"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Shadow_diamond"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Worried_H.A.M._cultist"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Worried_H.A.M._cultist"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Honey_badger"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Honey_badger"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Fellstalk_potion_(unf)"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Fellstalk_potion_(unf)"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Vetal_lamp_handle"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Vetal_lamp_handle"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Swamp_toad"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Swamp_toad"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Red_cog"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Red_cog"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Memorial_fountain"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Memorial_fountain"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Elder_chronicle_(item)"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Elder_chronicle_(item)"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Steel_gauntlets"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Steel_gauntlets"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Tyr"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Tyr"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Reward_lamp"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Reward_lamp"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Falador_shield_3"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Falador_shield_3"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Chew_toy"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Chew_toy"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Sir_Ceril%27s_money_pouch"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Sir_Ceril's_money_pouch"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Swamp_creature"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Swamp_creature"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/resource/Queen_Black_Dragon"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/resource/Queen_Black_Dragon"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/property/eqexp"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/property/noweapon"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/property/q32e"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/property/charhead"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/property/leader"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/property/leader"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/property/q58a"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/property/image1old"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/property/q61e"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/property/form"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/property/q171c"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/property/obelisks"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/property/obelisks"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/property/element"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/property/element"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/property/flavour"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/property/quote"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/property/quote"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/property/storevalue"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/property/storevalue"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/property/requirements"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/property/requirements"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/property/altar"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/property/altar"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/property/pricklypear"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/property/pricklypear"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/property/farming"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/property/farming"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/property/lifepoints"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/property/lifepoints"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/class/Game"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/class/Game"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/class/Ability"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/class/Ability"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/class/interactive_scenery"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/class/interactive_scenery"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/class/Person"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/class/Currency"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/class/wisp"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/class/wisp"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/class/Bonuses_Historical"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/class/Bonuses_Historical"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/class/seed"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/class/Seed"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/class/monster"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/class/monster"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/class/rock"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/class/rock"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/class/episode"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/class/spell"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/class/spell"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/class/Conquest"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/class/Conquest"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/class/interactive_scenery_multi"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/class/interactive_scenery_multi"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/class/Set"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/class/Set"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/class/Seed"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/class/Seed"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/class/threat_area"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/class/location"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/class/npc_multi"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/class/npc_multi"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/runescape/class/NPC"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/darkscape/class/NPC"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+</Alignment>
+</rdf:RDF>

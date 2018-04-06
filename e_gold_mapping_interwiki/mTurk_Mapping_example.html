@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titel</title>
+  </head>
+  <body>
+
+
+
+<form name="mturk_form" method="post" id="mturk_form" action="http://localhost:8000/">
+
+
+
+<!-- HIT template: Survey-v3.0 --><!-- The following snippet enables the 'responsive' behavior on smaller screens -->
+<meta content="width=device-width,initial-scale=1" name="viewport" />
+<section class="container" id="Survey"><!-- Instructions -->
+<div class="row">
+<div class="col-xs-12 col-md-12">
+<div class="panel panel-primary"><!-- WARNING: the ids "collapseTrigger" and "instructionBody" are being used to enable expand/collapse feature --><a class="panel-heading" href="javascript:void(0);" id="collapseTrigger"><strong>Survey Instructions</strong> <span class="collapse-text">(Click to expand)</span> </a>
+<div class="panel-body" id="instructionBody">
+<p>Hello, <br/>
+thank you for participating in our survey.<br/>
+It is about finding a corresponding wiki page of one wiki in two different but similar wikis.<br/>
+You can use the search functionality of the wiki itself, using google or any other search strategy.<br/>
+Please note that the page can be named in a different way (<i>USA</i> can be also matched to <i>United States</i> or <i>America</i>).<br/>
+Use a recent version of Chrome, Firefox, Internet Explorer or Opera for this survey and have javascript enabled.</br>
+You have 40 minutes at maximum for this survey which means for each wikipage 2 minutes.</br>
+<br/>
+Following a small <b>example</b>:
+<br/>
+<br/>
+Find a similar page (given below) from wiki &quot;<a target="_blank" href="http://battlefront.wikia.com">Battlefront</a>&quot;to the similar wikis:</br>
+<ol type="a">
+<li><a target="_blank" href="http://starwars.wikia.com">Starwars</a></li>
+<li><a target="_blank" href="http://clonewars.wikia.com">The Clone Wars</a></li>
+</ol>
+All answers have to start with &quot;<b>http://starwars.wikia.com/wiki/</b>&quot; respectively &quot;<b>http://clonewars.wikia.com/wiki/</b>&quot; or the &quot;<b>No matching article</b>&quot; option should be selected.</br>
+<!--
+304
+691244
+1267847
+-->
+<ol>
+<li>
+    <p><a target="_blank" href="http://battlefront.wikia.com/wiki/X-Wing">http://battlefront.wikia.com/wiki/X-Wing</a> with title &quot;X-Wing&quot;</p>
+    Find it in <a target="_blank" href="http://starwars.wikia.com">Starwars</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="example_mapping" value="http://starwars.wikia.com/wiki/X-wing_starfighter" disabled>
+      <span class="input-group-addon"><label><input  type="checkbox" value="" disabled> No matching article</label></span>
+    </div>
+    <p>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://starwars.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://starwars.wikia.com/wiki/Special:Search?query=X-Wing">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://starwars.wikia.com+X-Wing">search with Google</a>
+    </p>
+    Find it in <a target="_blank" href="http://clonewars.wikia.com">The Clone Wars</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="example_mapping2" value="" disabled>
+      <span class="input-group-addon"><label><input  type="checkbox" value="" disabled checked> No matching article</label></span>
+    </div> 
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://clonewars.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://clonewars.wikia.com/wiki/Special:Search?query=X-Wing">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://clonewars.wikia.com+X-Wing">search with Google</a>
+</li>
+
+</ol>
+
+</p>
+</div>
+</div>
+</div>
+</div>
+<!-- End Instructions --><!-- Survey Layout -->
+<div class="row" id="workContent">
+<div class="col-xs-12 col-md-12">
+<div class="panel panel-default">
+<div class="panel-body">
+
+Find a similar page (given below) from wiki &quot;<a target="_blank" href="http://runescape.wikia.com">The RuneScape Wiki</a>&quot; to the similar wikis:</br>
+<ol type="a">
+<li><a target="_blank" href="http://oldschoolrunescape.wikia.com">Old School RuneScape Wiki</a></li>
+<li><a target="_blank" href="http://darkscape.wikia.com">DarkScape Wikia</a></li>
+</ol>
+All answers have to start with &quot;<b>http://oldschoolrunescape.wikia.com/wiki/</b>&quot; respectively &quot;<b>http://darkscape.wikia.com/wiki/</b>&quot; or the &quot;<b>No matching article</b>&quot; option should be selected.</br>
+</br>
+
+<ol>
+
+<li style="margin-bottom:40px;">
+    <p><a target="_blank" href="http://runescape.wikia.com/wiki/Goliath_gloves">http://runescape.wikia.com/wiki/Goliath_gloves</a> with title &quot;Goliath gloves&quot; </p>
+    Find it in <a target="_blank" href="http://oldschoolrunescape.wikia.com">Old School RuneScape Wiki</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="0_mapping_dst1" value="http://oldschoolrunescape.wikia.com/wiki/..." required pattern="http://oldschoolrunescape.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <p>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://oldschoolrunescape.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://oldschoolrunescape.wikia.com/wiki/Special:Search?query=Goliath+gloves">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://oldschoolrunescape.wikia.com+Goliath+gloves">search with Google</a>
+    </p>
+    
+    Find it in <a target="_blank" href="http://darkscape.wikia.com">DarkScape Wikia</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="0_mapping_dst2" value="http://darkscape.wikia.com/wiki/..." required pattern="http://darkscape.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://darkscape.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://darkscape.wikia.com/wiki/Special:Search?query=Goliath+gloves">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://darkscape.wikia.com+Goliath+gloves">search with Google</a>
+</li>
+
+<li style="margin-bottom:40px;">
+    <p><a target="_blank" href="http://runescape.wikia.com/wiki/Griffin_Outfit">http://runescape.wikia.com/wiki/Griffin_Outfit</a> with title &quot;Griffin Outfit&quot; </p>
+    Find it in <a target="_blank" href="http://oldschoolrunescape.wikia.com">Old School RuneScape Wiki</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="1_mapping_dst1" value="http://oldschoolrunescape.wikia.com/wiki/..." required pattern="http://oldschoolrunescape.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <p>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://oldschoolrunescape.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://oldschoolrunescape.wikia.com/wiki/Special:Search?query=Griffin+Outfit">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://oldschoolrunescape.wikia.com+Griffin+Outfit">search with Google</a>
+    </p>
+    
+    Find it in <a target="_blank" href="http://darkscape.wikia.com">DarkScape Wikia</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="1_mapping_dst2" value="http://darkscape.wikia.com/wiki/..." required pattern="http://darkscape.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://darkscape.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://darkscape.wikia.com/wiki/Special:Search?query=Griffin+Outfit">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://darkscape.wikia.com+Griffin+Outfit">search with Google</a>
+</li>
+
+<li style="margin-bottom:40px;">
+    <p><a target="_blank" href="http://runescape.wikia.com/wiki/Fragile_runecrafting_urn_(full)">http://runescape.wikia.com/wiki/Fragile_runecrafting_urn_(full)</a> with title &quot;Fragile runecrafting urn (full)&quot; </p>
+    Find it in <a target="_blank" href="http://oldschoolrunescape.wikia.com">Old School RuneScape Wiki</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="2_mapping_dst1" value="http://oldschoolrunescape.wikia.com/wiki/..." required pattern="http://oldschoolrunescape.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <p>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://oldschoolrunescape.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://oldschoolrunescape.wikia.com/wiki/Special:Search?query=Fragile+runecrafting+urn+(full)">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://oldschoolrunescape.wikia.com+Fragile+runecrafting+urn+(full)">search with Google</a>
+    </p>
+    
+    Find it in <a target="_blank" href="http://darkscape.wikia.com">DarkScape Wikia</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="2_mapping_dst2" value="http://darkscape.wikia.com/wiki/..." required pattern="http://darkscape.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://darkscape.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://darkscape.wikia.com/wiki/Special:Search?query=Fragile+runecrafting+urn+(full)">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://darkscape.wikia.com+Fragile+runecrafting+urn+(full)">search with Google</a>
+</li>
+
+<li style="margin-bottom:40px;">
+    <p><a target="_blank" href="http://runescape.wikia.com/wiki/Seers'_Village_achievements">http://runescape.wikia.com/wiki/Seers'_Village_achievements</a> with title &quot;Seers' Village achievements&quot; </p>
+    Find it in <a target="_blank" href="http://oldschoolrunescape.wikia.com">Old School RuneScape Wiki</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="3_mapping_dst1" value="http://oldschoolrunescape.wikia.com/wiki/..." required pattern="http://oldschoolrunescape.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <p>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://oldschoolrunescape.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://oldschoolrunescape.wikia.com/wiki/Special:Search?query=Seers'+Village+achievements">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://oldschoolrunescape.wikia.com+Seers'+Village+achievements">search with Google</a>
+    </p>
+    
+    Find it in <a target="_blank" href="http://darkscape.wikia.com">DarkScape Wikia</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="3_mapping_dst2" value="http://darkscape.wikia.com/wiki/..." required pattern="http://darkscape.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://darkscape.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://darkscape.wikia.com/wiki/Special:Search?query=Seers'+Village+achievements">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://darkscape.wikia.com+Seers'+Village+achievements">search with Google</a>
+</li>
+
+<li style="margin-bottom:40px;">
+    <p><a target="_blank" href="http://runescape.wikia.com/wiki/The_Black_Hole">http://runescape.wikia.com/wiki/The_Black_Hole</a> with title &quot;The Black Hole&quot; </p>
+    Find it in <a target="_blank" href="http://oldschoolrunescape.wikia.com">Old School RuneScape Wiki</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="4_mapping_dst1" value="http://oldschoolrunescape.wikia.com/wiki/..." required pattern="http://oldschoolrunescape.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <p>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://oldschoolrunescape.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://oldschoolrunescape.wikia.com/wiki/Special:Search?query=The+Black+Hole">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://oldschoolrunescape.wikia.com+The+Black+Hole">search with Google</a>
+    </p>
+    
+    Find it in <a target="_blank" href="http://darkscape.wikia.com">DarkScape Wikia</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="4_mapping_dst2" value="http://darkscape.wikia.com/wiki/..." required pattern="http://darkscape.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://darkscape.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://darkscape.wikia.com/wiki/Special:Search?query=The+Black+Hole">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://darkscape.wikia.com+The+Black+Hole">search with Google</a>
+</li>
+
+<li style="margin-bottom:40px;">
+    <p><a target="_blank" href="http://runescape.wikia.com/wiki/Greater_sharpshooter_aura">http://runescape.wikia.com/wiki/Greater_sharpshooter_aura</a> with title &quot;Greater sharpshooter aura&quot; </p>
+    Find it in <a target="_blank" href="http://oldschoolrunescape.wikia.com">Old School RuneScape Wiki</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="5_mapping_dst1" value="http://oldschoolrunescape.wikia.com/wiki/..." required pattern="http://oldschoolrunescape.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <p>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://oldschoolrunescape.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://oldschoolrunescape.wikia.com/wiki/Special:Search?query=Greater+sharpshooter+aura">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://oldschoolrunescape.wikia.com+Greater+sharpshooter+aura">search with Google</a>
+    </p>
+    
+    Find it in <a target="_blank" href="http://darkscape.wikia.com">DarkScape Wikia</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="5_mapping_dst2" value="http://darkscape.wikia.com/wiki/..." required pattern="http://darkscape.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://darkscape.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://darkscape.wikia.com/wiki/Special:Search?query=Greater+sharpshooter+aura">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://darkscape.wikia.com+Greater+sharpshooter+aura">search with Google</a>
+</li>
+
+<li style="margin-bottom:40px;">
+    <p><a target="_blank" href="http://runescape.wikia.com/wiki/Artisan's_potion">http://runescape.wikia.com/wiki/Artisan's_potion</a> with title &quot;Artisan's potion&quot; </p>
+    Find it in <a target="_blank" href="http://oldschoolrunescape.wikia.com">Old School RuneScape Wiki</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="6_mapping_dst1" value="http://oldschoolrunescape.wikia.com/wiki/..." required pattern="http://oldschoolrunescape.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <p>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://oldschoolrunescape.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://oldschoolrunescape.wikia.com/wiki/Special:Search?query=Artisan's+potion">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://oldschoolrunescape.wikia.com+Artisan's+potion">search with Google</a>
+    </p>
+    
+    Find it in <a target="_blank" href="http://darkscape.wikia.com">DarkScape Wikia</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="6_mapping_dst2" value="http://darkscape.wikia.com/wiki/..." required pattern="http://darkscape.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://darkscape.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://darkscape.wikia.com/wiki/Special:Search?query=Artisan's+potion">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://darkscape.wikia.com+Artisan's+potion">search with Google</a>
+</li>
+
+<li style="margin-bottom:40px;">
+    <p><a target="_blank" href="http://runescape.wikia.com/wiki/Alchemist's_amulet">http://runescape.wikia.com/wiki/Alchemist's_amulet</a> with title &quot;Alchemist's amulet&quot; </p>
+    Find it in <a target="_blank" href="http://oldschoolrunescape.wikia.com">Old School RuneScape Wiki</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="7_mapping_dst1" value="http://oldschoolrunescape.wikia.com/wiki/..." required pattern="http://oldschoolrunescape.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <p>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://oldschoolrunescape.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://oldschoolrunescape.wikia.com/wiki/Special:Search?query=Alchemist's+amulet">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://oldschoolrunescape.wikia.com+Alchemist's+amulet">search with Google</a>
+    </p>
+    
+    Find it in <a target="_blank" href="http://darkscape.wikia.com">DarkScape Wikia</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="7_mapping_dst2" value="http://darkscape.wikia.com/wiki/..." required pattern="http://darkscape.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://darkscape.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://darkscape.wikia.com/wiki/Special:Search?query=Alchemist's+amulet">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://darkscape.wikia.com+Alchemist's+amulet">search with Google</a>
+</li>
+
+<li style="margin-bottom:40px;">
+    <p><a target="_blank" href="http://runescape.wikia.com/wiki/Trader_Stan">http://runescape.wikia.com/wiki/Trader_Stan</a> with title &quot;Trader Stan&quot; </p>
+    Find it in <a target="_blank" href="http://oldschoolrunescape.wikia.com">Old School RuneScape Wiki</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="8_mapping_dst1" value="http://oldschoolrunescape.wikia.com/wiki/..." required pattern="http://oldschoolrunescape.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <p>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://oldschoolrunescape.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://oldschoolrunescape.wikia.com/wiki/Special:Search?query=Trader+Stan">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://oldschoolrunescape.wikia.com+Trader+Stan">search with Google</a>
+    </p>
+    
+    Find it in <a target="_blank" href="http://darkscape.wikia.com">DarkScape Wikia</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="8_mapping_dst2" value="http://darkscape.wikia.com/wiki/..." required pattern="http://darkscape.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://darkscape.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://darkscape.wikia.com/wiki/Special:Search?query=Trader+Stan">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://darkscape.wikia.com+Trader+Stan">search with Google</a>
+</li>
+
+<li style="margin-bottom:40px;">
+    <p><a target="_blank" href="http://runescape.wikia.com/wiki/Dark_Wizard_Elijah">http://runescape.wikia.com/wiki/Dark_Wizard_Elijah</a> with title &quot;Dark Wizard Elijah&quot; </p>
+    Find it in <a target="_blank" href="http://oldschoolrunescape.wikia.com">Old School RuneScape Wiki</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="9_mapping_dst1" value="http://oldschoolrunescape.wikia.com/wiki/..." required pattern="http://oldschoolrunescape.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <p>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://oldschoolrunescape.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://oldschoolrunescape.wikia.com/wiki/Special:Search?query=Dark+Wizard+Elijah">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://oldschoolrunescape.wikia.com+Dark+Wizard+Elijah">search with Google</a>
+    </p>
+    
+    Find it in <a target="_blank" href="http://darkscape.wikia.com">DarkScape Wikia</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="9_mapping_dst2" value="http://darkscape.wikia.com/wiki/..." required pattern="http://darkscape.wikia.com/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://darkscape.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://darkscape.wikia.com/wiki/Special:Search?query=Dark+Wizard+Elijah">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://darkscape.wikia.com+Dark+Wizard+Elijah">search with Google</a>
+</li>
+
+
+
+</ol>
+
+</div>
+</div>
+
+</div>
+</div>
+<!-- End Survey Layout --></section>
+<!-- Please note that Bootstrap CSS/JS and JQuery are 3rd party libraries that may update their url/code at any time. Amazon Mechanical Turk (MTurk) is including these libraries as a default option for you, but is not responsible for any changes to the external libraries --><!-- External CSS references -->
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" rel="stylesheet" /><!-- Open internal style sheet -->
+
+<style type="text/css">
+#collapseTrigger{
+  color:#fff;
+  display: block;
+  text-decoration: none;
+}
+#submitButton{
+  white-space: normal;
+}
+.form-horizontal .control-label{
+  text-align: left
+}
+
+</style>
+<!-- Close internal style sheet -->
+
+<!-- External JS references -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Open internal javascript --><script>
+  $(document).ready(function() {
+    // Instructions expand/collapse
+    var content = $('#instructionBody');
+    var trigger = $('#collapseTrigger');
+    content.hide();
+    $('.collapse-text').text('(Click to expand)');
+    trigger.click(function(){
+      content.toggle();
+      var isVisible = content.is(':visible');
+      if(isVisible){
+        $('.collapse-text').text('(Click to collapse)');
+      }else{
+        $('.collapse-text').text('(Click to expand)');
+      }
+    });    
+    // end expand/collapse
+    //$('#mturk_form').validator();
+    $('.matching_article').change(function(){
+        if ($(this).is(':checked')){
+            $(this).closest( ".input-group" ).find(".form-control").val('no match').prop('readonly', true);
+        } else {
+            var form_control = $(this).closest( ".input-group" ).find(".form-control");
+            if(form_control.attr("name").endsWith('dst1')){
+                form_control.val('http://oldschoolrunescape.wikia.com/wiki/...').prop('readonly', false);
+            }else {
+                form_control.val('http://darkscape.wikia.com/wiki/...').prop('readonly', false);
+            }
+        }
+    });//console.log(
+    
+    
+  });
+
+</script><!-- CLose internal javascript -->
+<input type="submit" id="submitButton" class="btn btn-primary" value="Submit">
+</form>
+
+  </body>
+</html>

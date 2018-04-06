@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>
+    <Ontology rdf:about="beautyandthebeastcwshow">
+      <location>http://dbkwik.webdatacommons.org/beautyandthebeastcwshow</location>
+    </Ontology>
+  </onto1>
+  <onto2>
+    <Ontology rdf:about="dbpedia">
+      <location>http://dbpedia.org</location>
+    </Ontology>
+  </onto2>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/class/Catherine_Chandler"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/class/Criminal"/>
+      <entity2 rdf:resource="http://dbpedia.org/ontology/Criminal"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/class/album"/>
+      <entity2 rdf:resource="http://dbpedia.org/ontology/Album"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/class/character"/>
+      <entity2 rdf:resource="http://dbpedia.org/ontology/FictionalCharacter"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/class/event"/>
+      <entity2 rdf:resource="http://dbpedia.org/ontology/Event"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/class/item"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/class/quest"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/articlename"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/articlename"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/birthday"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/birthday"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/company"/>
+      <entity2 rdf:resource="http://dbpedia.org/ontology/company"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/composer"/>
+      <entity2 rdf:resource="http://dbpedia.org/ontology/composer"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/cure"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/deathreason"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/deathReason"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/enemies"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/enemies"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/exes"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/genre"/>
+      <entity2 rdf:resource="http://dbpedia.org/ontology/genre"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/intentions"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/intentions"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/job"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/job"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/knownIngredients"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/mainIngredients"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/latestappearance"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/latestAppearance"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/next"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/next"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/nickname"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/nickname"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/occupation"/>
+      <entity2 rdf:resource="http://dbpedia.org/ontology/occupation"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/organization"/>
+      <entity2 rdf:resource="http://dbpedia.org/ontology/organisation"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/own"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/own"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/participant(s)"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/participants"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/played"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/played"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/power"/>
+      <entity2 rdf:resource="http://dbpedia.org/ontology/power"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/producers"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/producers"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/relatedTo"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/relatedTo"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/resident"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/resident"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/run"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/run"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/siblings"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/siblings"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/skin"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/skin"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/slogan"/>
+      <entity2 rdf:resource="http://dbpedia.org/ontology/slogan"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/species"/>
+      <entity2 rdf:resource="http://dbpedia.org/ontology/species"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/star"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/star"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/traits"/>
+      <entity2 rdf:resource="http://dbpedia.org/property/traits"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/type"/>
+      <entity2 rdf:resource="http://dbpedia.org/ontology/type"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/weapon"/>
+      <entity2 rdf:resource="http://dbpedia.org/ontology/weapon"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/property/writer"/>
+      <entity2 rdf:resource="http://dbpedia.org/ontology/writer"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/resource/Alton_Finn"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/resource/Austin_Basis"/>
+      <entity2 rdf:resource="http://dbpedia.org/resource/Austin_Basis"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/resource/Brooke_Chandler"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/resource/Chief_of_Police"/>
+      <entity2 rdf:resource="http://dbpedia.org/resource/Chief_of_police"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/resource/Destined"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/resource/Father_Knows_Best"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/resource/Featured_Media"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/resource/Homeland_Security"/>
+      <entity2 rdf:resource="http://dbpedia.org/resource/United_States_Department_of_Homeland_Security"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/resource/J.T._Forbes"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/resource/Julio_Ramirez"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/resource/Miranda_Bishop"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/resource/New_York_City"/>
+      <entity2 rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/resource/Night_Vision"/>
+      <entity2 rdf:resource="http://dbpedia.org/resource/Night_vision"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/resource/Ray_Sheckman"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/resource/Raymond_Ascalvo"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/resource/Recipe_For_Disaster"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/resource/Robert_Reynolds"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/resource/ST._Benjamin's_Hospital"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/resource/Seeing_Red"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/resource/September_11_attacks"/>
+      <entity2 rdf:resource="http://dbpedia.org/resource/September_11_attacks"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/resource/Soldier"/>
+      <entity2 rdf:resource="http://dbpedia.org/resource/Soldier"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/resource/Superhuman_Hearing"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/resource/Terese"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/resource/The_Getaway"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/resource/The_Most_Dangerous_Beast"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/beautyandthebeastcwshow/resource/Victoria_Hansen"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+</Alignment>
+</rdf:RDF>

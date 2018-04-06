@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>
+    <Ontology rdf:about="marvel">
+      <location>http://marvel.wikia.com</location>
+    </Ontology>
+  </onto1>
+  <onto2>
+    <Ontology rdf:about="heykidscomics">
+      <location>http://heykidscomics.wikia.com</location>
+    </Ontology>
+  </onto2>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Uncanny_X-Men_Vol_1_232"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Uncanny_X-Men_Vol_1_232"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Epoch_(Earth-616)"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Sarah_Purser_(Earth-616)"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Silver_Surfer_Vol_3_50"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Silver_Surfer_Vol_3_50"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Marvel_Super-Heroes_Vol_1_61"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Marvel_Super-Heroes_Vol_1_61"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/X-Men_Vol_2_3"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/X-Men_Vol_2_3"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Strobe"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Wild_Pack_(Earth-616)"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Captain_America_Vol_5_2"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Captain_America_Vol_5_2"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Ronald_Rankin"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Bert_Tacker_(Earth-616)"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Angelo_Fortunato_(Earth-616)"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Scott_Wright_(Earth-616)"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Sharon_Banks_(Earth-616)"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Secret_Invasion_Vol_1_1"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Secret_Invasion_Vol_1_1"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Inferno"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Cyclops"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Cyclops"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Avengers_Vol_1_39"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Avengers_Vol_1_39"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Marvel_Presents_Vol_1_5"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Marvel_Presents_Vol_1_5"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Russ_Heath"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Russ_Heath"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Lightning_Force_(Earth-597)/Gallery"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Fantastic_Five_Vol_1"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Fantastic_Five_Vol_1"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Mighty_Avengers_Vol_1"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Mighty_Avengers_Vol_1"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Exiles_Vol_1_97"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Exiles_Vol_1_97"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Spider-Woman_Vol_1_14"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Spider-Woman_Vol_1_14"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Uncanny_X-Men_Vol_1_282"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Uncanny_X-Men_Vol_1_282"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Avengers_United_Vol_1_65"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Weapon_X_The_Draft_Agent_Zero"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Marvel_Team-Up_Vol_1_65"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Marvel_Team-Up_Vol_1_65"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Val_Semeiks"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Val_Semeiks"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Conan_the_Barbarian_Vol_1_127"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Conan_the_Barbarian_Vol_1_127"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Love_Classics_Vol_1"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Love_Classics_Vol_1"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Sparkplug_(comics)"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Joker's_Asylum:_Clayface_Vol_1_1"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Alpha_Flight_Vol_1_118"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Alpha_Flight_Vol_1_118"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Batman:_Shadow_of_the_Bat"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Animal_Man_Vol_2_8"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Draco"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Teen_Titans_Go!_(TV_Series)_Episode:_Man_Person"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Worst_from_Mad_Vol_1"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Smallville_(TV_Series)_Episode:_Fever"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Amory_Wars_Vol_2_3"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Bang!_Tango_Vol_1_3"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/X-Men:_The_Fall_of_the_Mutants_Vol_1_2"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Star_Wars_Vol_1_41"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Star_Wars_Vol_1_41"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Hellblazer_Vol_1_154"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Texas_Kid_Vol_1_6"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Texas_Kid_Vol_1_6"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Superman_Vol_1_389"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Mickey_the_Monkey"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Matt_Idelson/Gallery"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Dagwood_Comics_Vol_1_5"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Real_Love_Vol_1_25"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Amazing_Fantasy_Vol_2_10"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Amazing_Fantasy_Vol_2_10"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Tales_to_Astonish_Vol_1_87"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Tales_to_Astonish_Vol_1_87"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Big_Bird's_Busy_Day/Gallery"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/The_Candid_Candidate"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Punisher:_War_Zone_(film)"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Punisher:_War_Zone_(film)"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Official_Handbook_of_the_Marvel_Universe"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Official_Handbook_of_the_Marvel_Universe_Comic_Books"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Marvel_Universe_Vs._The_Avengers_Vol_1"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Marvel_Universe_Vs._The_Avengers_Vol_1"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Halflife"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Halflife"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/WildC.A.T.s_Vol_1_8"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Superboy_Vol_4_63"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/Spider"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Spider"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/resource/John_Dell"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/John_Dell"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Aquaman_Vol_5_15"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Question_Vol_1_28"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Legion_of_Super-Heroes_Vol_2_269"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Adventure_Comics_Vol_1_446"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Batman_Family_Vol_1_14"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/The_Flash:_Lightning_in_a_Bottle"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Teen_Titans_Vol_3_4"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/resource/Wow_Comics_Vol_1_55"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/property/mainCharacter"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/property/mainCharacter"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/property/editor"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/property/editor"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/property/box6Image"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/property/box6Image"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/property/year"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/property/year"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/property/strength"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/property/strength"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/property/body"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/property/body"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/property/realted"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/property/related"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/property/after"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/property/after"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/property/before"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/property/before"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/property/vídeoGames"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/property/videoGames"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/property/limited"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/property/imageFile"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/property/pets"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/property/engvoice"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/property/business"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/property/propulsion"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/property/catchphrases"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/property/2p"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/property/oxmX"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/property/action"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/class/Line"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/class/Line"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/marvel/class/Previous-Next"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/class/Previous-Next"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/class/Television_Film"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/class/Pinball"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/class/musical_artist"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/class/VG_character"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/class/2_comic_strip"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/class/Video_Game"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/class/fictional_country"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/class/Cartoon"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/class/Television_film"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/heykidscomics/class/film"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+</Alignment>
+</rdf:RDF>

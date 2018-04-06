@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>
+    <Ontology rdf:about="memory-alpha">
+      <location>http://memory-alpha.wikia.com</location>
+    </Ontology>
+  </onto1>
+  <onto2>
+    <Ontology rdf:about="memory-beta">
+      <location>http://memory-beta.wikia.com</location>
+    </Ontology>
+  </onto2>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Harry_Werksman"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Unnamed_illusory_people"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Dekora_Assan"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Dekora_Assan"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Engineering_Operations"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Gideon_Council_Chamber"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Sebastes_mustinus"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/SS_Santa_Maria"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/SS_Santa_Maria"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Unnamed_Andorian_cruisers"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Isn't_It_Romantic?"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Killing_Time"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Killing_Time"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Bridge_Officer's_Test"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Suella_Springfield"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/List_of_Makull's_species"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/American_Civil_War"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/American_Civil_War"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Candle"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Unnamed_Deep_Space_9_Bajoran_Militia_operations_division_personnel"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Engramatic_dissociation"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/The_Art_of_the_Deal"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/The_Art_of_the_Deal"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Julian_Christopher"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/27_February"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Cardassian_Imps"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Cardassian_Imps"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Devonshire"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/A._Coleite"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Tibbis"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/A-7_Computer_expert"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Battle_of_the_Pyrithian_Gorge"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Star_Trek_games_performers"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/David_Opatoshu"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Genius"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Hangar_2"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Nolotai"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Star_Trek"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Star_Trek"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Bruce_Maddox"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Bruce_Maddox"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/USS_Fredrickson"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/USS_Fredrickson"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Yamato"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Alaska"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Alaska"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/2238"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/2238"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Endeavour"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Endeavour"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Tseng"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Ravia"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Gorash"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Caligula"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Tholian_silk"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Tholian_silk"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Nathan"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Nathan"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Saint_Petersburg_State_University"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Ambassador_of_the_Imperial_Romulan_State_to_the_United_Federation_of_Planets"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Ivia"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Kessok_torpedo_launcher"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/USS_Wolverine"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/RIS_Vottetus"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Kal-Apton"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/IKV_Battle_Leader"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Species_8472_mothership"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Terrorism"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Terrorism"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Optolythic_data_rod"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Optolythic_data_rod"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Tama"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Type_IV_civilization"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Soth_Romar"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Victoria"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Victoria"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Nintendo"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/USS_Midway_(Sovereign_class)"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/Moore"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Moore"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/USS_Yorkshire"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Life_support"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/resource/The_Eyes_of_the_Beholders"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/The_Eyes_of_the_Beholders"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Bremerton"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/Goulash"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/resource/CDS_Kirlak"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/property/series"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/property/series"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/property/simage"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/property/image"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/property/cover2s"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/property/license"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/property/placeOfBirth"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/property/birthplace"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/property/conductor"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/property/director"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/property/nnthreleasedinall"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/property/sreleasemonth"/>
+      <entity2 rdf:resource="null"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/property/writer"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/property/writer"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/property/registry"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/property/registry"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/property/yearOfEstablishment"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/property/relative"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/property/otherRelatives"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/property/gov"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/property/colors"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/property/format"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/property/formt"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/property/letter"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/property/coverImage"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/property/series"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/property/miniseries"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbkwik.webdatacommons.org/memory-alpha/property/wsteleplayby"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/property/teleplay"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/property/moons"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/class/Planet"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/class/Series"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/class/Conflict"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/class/State"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/class/Ship"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/class/FederationMemberState"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/class/Smallcraft"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/class/Character"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/class/Species"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/class/Alliance"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="null"/>
+      <entity2 rdf:resource="http://dbkwik.webdatacommons.org/memory-beta/class/MiniPlanet"/>
+      <relation>%</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+</Alignment>
+</rdf:RDF>

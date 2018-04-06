@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titel</title>
+  </head>
+  <body>
+
+
+
+<form name="mturk_form" method="post" id="mturk_form" action="http://localhost:8000/">
+
+
+
+<!-- HIT template: Survey-v3.0 --><!-- The following snippet enables the 'responsive' behavior on smaller screens -->
+<meta content="width=device-width,initial-scale=1" name="viewport" />
+<section class="container" id="Survey"><!-- Instructions -->
+<div class="row">
+<div class="col-xs-12 col-md-12">
+<div class="panel panel-primary"><!-- WARNING: the ids "collapseTrigger" and "instructionBody" are being used to enable expand/collapse feature --><a class="panel-heading" href="javascript:void(0);" id="collapseTrigger"><strong>Survey Instructions</strong> <span class="collapse-text">(Click to expand)</span> </a>
+<div class="panel-body" id="instructionBody">
+<p>Hello, <br/>
+thank you for participating in our survey.<br/>
+It is about finding a corresponding wiki page of one wiki in two different but similar wikis.<br/>
+You can use the search functionality of the wiki itself, using google or any other search strategy.<br/>
+Please note that the page can be named in a different way (<i>USA</i> can be also matched to <i>United States</i> or <i>America</i>).<br/>
+Use a recent version of Chrome, Firefox, Internet Explorer or Opera for this survey and have javascript enabled.</br>
+You have 40 minutes at maximum for this survey which means for each wikipage 2 minutes.</br>
+<br/>
+Following a small <b>example</b>:
+<br/>
+<br/>
+Find a similar page (given below) from wiki &quot;<a target="_blank" href="http://battlefront.wikia.com">Battlefront</a>&quot;to the similar wikis:</br>
+<ol type="a">
+<li><a target="_blank" href="http://starwars.wikia.com">Starwars</a></li>
+<li><a target="_blank" href="http://clonewars.wikia.com">The Clone Wars</a></li>
+</ol>
+All answers have to start with &quot;<b>http://starwars.wikia.com/wiki/</b>&quot; respectively &quot;<b>http://clonewars.wikia.com/wiki/</b>&quot; or the &quot;<b>No matching article</b>&quot; option should be selected.</br>
+<!--
+${id_src}
+${id_dst1}
+${id_dst2}
+-->
+<ol>
+<li>
+    <p><a target="_blank" href="http://battlefront.wikia.com/wiki/X-Wing">http://battlefront.wikia.com/wiki/X-Wing</a> with title &quot;X-Wing&quot;</p>
+    Find it in <a target="_blank" href="http://starwars.wikia.com">Starwars</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="example_mapping" value="http://starwars.wikia.com/wiki/X-wing_starfighter" disabled>
+      <span class="input-group-addon"><label><input  type="checkbox" value="" disabled> No matching article</label></span>
+    </div>
+    <p>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://starwars.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://starwars.wikia.com/wiki/Special:Search?query=X-Wing">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://starwars.wikia.com+X-Wing">search with Google</a>
+    </p>
+    Find it in <a target="_blank" href="http://clonewars.wikia.com">The Clone Wars</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="example_mapping2" value="" disabled>
+      <span class="input-group-addon"><label><input  type="checkbox" value="" disabled checked> No matching article</label></span>
+    </div> 
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://clonewars.wikia.com/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://clonewars.wikia.com/wiki/Special:Search?query=X-Wing">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:http://clonewars.wikia.com+X-Wing">search with Google</a>
+</li>
+
+</ol>
+
+</p>
+</div>
+</div>
+</div>
+</div>
+<!-- End Instructions --><!-- Survey Layout -->
+<div class="row" id="workContent">
+<div class="col-xs-12 col-md-12">
+<div class="panel panel-default">
+<div class="panel-body">
+
+Find a similar page (given below) from wiki &quot;<a target="_blank" href="${domain_src}">${title_src}</a>&quot; to the similar wikis:</br>
+<ol type="a">
+<li><a target="_blank" href="${domain_dst1}">${title_dst1}</a></li>
+<li><a target="_blank" href="${domain_dst2}">${title_dst2}</a></li>
+</ol>
+All answers have to start with &quot;<b>${domain_dst1}/wiki/</b>&quot; respectively &quot;<b>${domain_dst2}/wiki/</b>&quot; or the &quot;<b>No matching article</b>&quot; option should be selected.</br>
+</br>
+
+<ol>
+
+<li style="margin-bottom:40px;">
+    <p><a target="_blank" href="${domain_src}/wiki/${wiki_0}">${domain_src}/wiki/${wiki_0}</a> with title &quot;${raw_0}&quot; </p>
+    Find it in <a target="_blank" href="${domain_dst1}">${title_dst1}</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="0_mapping_dst1" value="${domain_dst1}/wiki/..." required pattern="${domain_dst1}/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <p>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst1}/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst1}/wiki/Special:Search?query=${encoded_0}">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:${domain_dst1}+${encoded_0}">search with Google</a>
+    </p>
+    
+    Find it in <a target="_blank" href="${domain_dst2}">${title_dst2}</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="0_mapping_dst2" value="${domain_dst2}/wiki/..." required pattern="${domain_dst2}/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst2}/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst2}/wiki/Special:Search?query=${encoded_0}">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:${domain_dst2}+${encoded_0}">search with Google</a>
+</li>
+
+<li style="margin-bottom:40px;">
+    <p><a target="_blank" href="${domain_src}/wiki/${wiki_1}">${domain_src}/wiki/${wiki_1}</a> with title &quot;${raw_1}&quot; </p>
+    Find it in <a target="_blank" href="${domain_dst1}">${title_dst1}</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="1_mapping_dst1" value="${domain_dst1}/wiki/..." required pattern="${domain_dst1}/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <p>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst1}/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst1}/wiki/Special:Search?query=${encoded_1}">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:${domain_dst1}+${encoded_1}">search with Google</a>
+    </p>
+    
+    Find it in <a target="_blank" href="${domain_dst2}">${title_dst2}</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="1_mapping_dst2" value="${domain_dst2}/wiki/..." required pattern="${domain_dst2}/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst2}/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst2}/wiki/Special:Search?query=${encoded_1}">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:${domain_dst2}+${encoded_1}">search with Google</a>
+</li>
+
+<li style="margin-bottom:40px;">
+    <p><a target="_blank" href="${domain_src}/wiki/${wiki_2}">${domain_src}/wiki/${wiki_2}</a> with title &quot;${raw_2}&quot; </p>
+    Find it in <a target="_blank" href="${domain_dst1}">${title_dst1}</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="2_mapping_dst1" value="${domain_dst1}/wiki/..." required pattern="${domain_dst1}/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <p>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst1}/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst1}/wiki/Special:Search?query=${encoded_2}">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:${domain_dst1}+${encoded_2}">search with Google</a>
+    </p>
+    
+    Find it in <a target="_blank" href="${domain_dst2}">${title_dst2}</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="2_mapping_dst2" value="${domain_dst2}/wiki/..." required pattern="${domain_dst2}/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst2}/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst2}/wiki/Special:Search?query=${encoded_2}">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:${domain_dst2}+${encoded_2}">search with Google</a>
+</li>
+
+<li style="margin-bottom:40px;">
+    <p><a target="_blank" href="${domain_src}/wiki/${wiki_3}">${domain_src}/wiki/${wiki_3}</a> with title &quot;${raw_3}&quot; </p>
+    Find it in <a target="_blank" href="${domain_dst1}">${title_dst1}</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="3_mapping_dst1" value="${domain_dst1}/wiki/..." required pattern="${domain_dst1}/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <p>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst1}/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst1}/wiki/Special:Search?query=${encoded_3}">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:${domain_dst1}+${encoded_3}">search with Google</a>
+    </p>
+    
+    Find it in <a target="_blank" href="${domain_dst2}">${title_dst2}</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="3_mapping_dst2" value="${domain_dst2}/wiki/..." required pattern="${domain_dst2}/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst2}/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst2}/wiki/Special:Search?query=${encoded_3}">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:${domain_dst2}+${encoded_3}">search with Google</a>
+</li>
+
+<li style="margin-bottom:40px;">
+    <p><a target="_blank" href="${domain_src}/wiki/${wiki_4}">${domain_src}/wiki/${wiki_4}</a> with title &quot;${raw_4}&quot; </p>
+    Find it in <a target="_blank" href="${domain_dst1}">${title_dst1}</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="4_mapping_dst1" value="${domain_dst1}/wiki/..." required pattern="${domain_dst1}/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <p>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst1}/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst1}/wiki/Special:Search?query=${encoded_4}">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:${domain_dst1}+${encoded_4}">search with Google</a>
+    </p>
+    
+    Find it in <a target="_blank" href="${domain_dst2}">${title_dst2}</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="4_mapping_dst2" value="${domain_dst2}/wiki/..." required pattern="${domain_dst2}/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst2}/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst2}/wiki/Special:Search?query=${encoded_4}">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:${domain_dst2}+${encoded_4}">search with Google</a>
+</li>
+
+<li style="margin-bottom:40px;">
+    <p><a target="_blank" href="${domain_src}/wiki/${wiki_5}">${domain_src}/wiki/${wiki_5}</a> with title &quot;${raw_5}&quot; </p>
+    Find it in <a target="_blank" href="${domain_dst1}">${title_dst1}</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="5_mapping_dst1" value="${domain_dst1}/wiki/..." required pattern="${domain_dst1}/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <p>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst1}/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst1}/wiki/Special:Search?query=${encoded_5}">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:${domain_dst1}+${encoded_5}">search with Google</a>
+    </p>
+    
+    Find it in <a target="_blank" href="${domain_dst2}">${title_dst2}</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="5_mapping_dst2" value="${domain_dst2}/wiki/..." required pattern="${domain_dst2}/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst2}/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst2}/wiki/Special:Search?query=${encoded_5}">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:${domain_dst2}+${encoded_5}">search with Google</a>
+</li>
+
+<li style="margin-bottom:40px;">
+    <p><a target="_blank" href="${domain_src}/wiki/${wiki_6}">${domain_src}/wiki/${wiki_6}</a> with title &quot;${raw_6}&quot; </p>
+    Find it in <a target="_blank" href="${domain_dst1}">${title_dst1}</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="6_mapping_dst1" value="${domain_dst1}/wiki/..." required pattern="${domain_dst1}/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <p>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst1}/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst1}/wiki/Special:Search?query=${encoded_6}">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:${domain_dst1}+${encoded_6}">search with Google</a>
+    </p>
+    
+    Find it in <a target="_blank" href="${domain_dst2}">${title_dst2}</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="6_mapping_dst2" value="${domain_dst2}/wiki/..." required pattern="${domain_dst2}/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst2}/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst2}/wiki/Special:Search?query=${encoded_6}">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:${domain_dst2}+${encoded_6}">search with Google</a>
+</li>
+
+<li style="margin-bottom:40px;">
+    <p><a target="_blank" href="${domain_src}/wiki/${wiki_7}">${domain_src}/wiki/${wiki_7}</a> with title &quot;${raw_7}&quot; </p>
+    Find it in <a target="_blank" href="${domain_dst1}">${title_dst1}</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="7_mapping_dst1" value="${domain_dst1}/wiki/..." required pattern="${domain_dst1}/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <p>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst1}/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst1}/wiki/Special:Search?query=${encoded_7}">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:${domain_dst1}+${encoded_7}">search with Google</a>
+    </p>
+    
+    Find it in <a target="_blank" href="${domain_dst2}">${title_dst2}</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="7_mapping_dst2" value="${domain_dst2}/wiki/..." required pattern="${domain_dst2}/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst2}/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst2}/wiki/Special:Search?query=${encoded_7}">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:${domain_dst2}+${encoded_7}">search with Google</a>
+</li>
+
+<li style="margin-bottom:40px;">
+    <p><a target="_blank" href="${domain_src}/wiki/${wiki_8}">${domain_src}/wiki/${wiki_8}</a> with title &quot;${raw_8}&quot; </p>
+    Find it in <a target="_blank" href="${domain_dst1}">${title_dst1}</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="8_mapping_dst1" value="${domain_dst1}/wiki/..." required pattern="${domain_dst1}/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <p>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst1}/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst1}/wiki/Special:Search?query=${encoded_8}">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:${domain_dst1}+${encoded_8}">search with Google</a>
+    </p>
+    
+    Find it in <a target="_blank" href="${domain_dst2}">${title_dst2}</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="8_mapping_dst2" value="${domain_dst2}/wiki/..." required pattern="${domain_dst2}/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst2}/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst2}/wiki/Special:Search?query=${encoded_8}">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:${domain_dst2}+${encoded_8}">search with Google</a>
+</li>
+
+<li style="margin-bottom:40px;">
+    <p><a target="_blank" href="${domain_src}/wiki/${wiki_9}">${domain_src}/wiki/${wiki_9}</a> with title &quot;${raw_9}&quot; </p>
+    Find it in <a target="_blank" href="${domain_dst1}">${title_dst1}</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="9_mapping_dst1" value="${domain_dst1}/wiki/..." required pattern="${domain_dst1}/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <p>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst1}/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst1}/wiki/Special:Search?query=${encoded_9}">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:${domain_dst1}+${encoded_9}">search with Google</a>
+    </p>
+    
+    Find it in <a target="_blank" href="${domain_dst2}">${title_dst2}</a>:
+    <div class="input-group">
+      <input type="text" class="form-control" name="9_mapping_dst2" value="${domain_dst2}/wiki/..." required pattern="${domain_dst2}/wiki/[^.].*">
+      <span class="input-group-addon"><label><input class="matching_article" type="checkbox" value=""> No matching article</label></span>
+    </div>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst2}/wiki/Special:AllPages">list all pages</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="${domain_dst2}/wiki/Special:Search?query=${encoded_9}">search with wiki</a>
+    <a class="btn btn-primary btn-sm" target="_blank" href="http://www.google.com/search?q=site:${domain_dst2}+${encoded_9}">search with Google</a>
+</li>
+
+
+
+</ol>
+
+</div>
+</div>
+
+</div>
+</div>
+<!-- End Survey Layout --></section>
+<!-- Please note that Bootstrap CSS/JS and JQuery are 3rd party libraries that may update their url/code at any time. Amazon Mechanical Turk (MTurk) is including these libraries as a default option for you, but is not responsible for any changes to the external libraries --><!-- External CSS references -->
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" rel="stylesheet" /><!-- Open internal style sheet -->
+
+<style type="text/css">
+#collapseTrigger{
+  color:#fff;
+  display: block;
+  text-decoration: none;
+}
+#submitButton{
+  white-space: normal;
+}
+.form-horizontal .control-label{
+  text-align: left
+}
+
+</style>
+<!-- Close internal style sheet -->
+
+<!-- External JS references -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Open internal javascript --><script>
+  $(document).ready(function() {
+    // Instructions expand/collapse
+    var content = $('#instructionBody');
+    var trigger = $('#collapseTrigger');
+    content.hide();
+    $('.collapse-text').text('(Click to expand)');
+    trigger.click(function(){
+      content.toggle();
+      var isVisible = content.is(':visible');
+      if(isVisible){
+        $('.collapse-text').text('(Click to collapse)');
+      }else{
+        $('.collapse-text').text('(Click to expand)');
+      }
+    });    
+    // end expand/collapse
+    //$('#mturk_form').validator();
+    $('.matching_article').change(function(){
+        if ($(this).is(':checked')){
+            $(this).closest( ".input-group" ).find(".form-control").val('no match').prop('readonly', true);
+        } else {
+            var form_control = $(this).closest( ".input-group" ).find(".form-control");
+            if(form_control.attr("name").endsWith('dst1')){
+                form_control.val('${domain_dst1}/wiki/...').prop('readonly', false);
+            }else {
+                form_control.val('${domain_dst2}/wiki/...').prop('readonly', false);
+            }
+        }
+    });//console.log(
+    
+    
+  });
+
+</script><!-- CLose internal javascript -->
+<input type="submit" id="submitButton" class="btn btn-primary" value="Submit">
+</form>
+
+  </body>
+</html>

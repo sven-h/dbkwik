@@ -1,0 +1,101 @@
+Source ID,Source title,Source domain,Source hub,Source topic,Target ID,Target title,Target domain,Target hub,Target topic,#Overlapping Titles,Jaccard
+2237,DC Database,dc.wikia.com,Comics,Lifestyle,330278,Hey Kids Comics Wiki,heykidscomics.wikia.com,Comics,Entertainment,54546,0.232945
+304,RuneScape Wiki,runescape.wikia.com,Games,Gaming,691244,Old School RuneScape Wiki,oldschoolrunescape.wikia.com,Games,Gaming,22327,0.107469
+304,RuneScape Wiki,runescape.wikia.com,Games,Gaming,1267847,DarkScape Wiki,darkscape.wikia.com,Games,Gaming,19223,0.101176
+2233,Marvel Database,marvel.wikia.com,Comics,Comics,330278,Hey Kids Comics Wiki,heykidscomics.wikia.com,Comics,Entertainment,16575,0.084051
+113,Memory Alpha,memory-alpha.wikia.com,TV,Entertainment,323,"Memory Beta, non-canon Star Trek Wiki",memory-beta.wikia.com,Books,Entertainment,13979,0.126658
+691244,Old School RuneScape Wiki,oldschoolrunescape.wikia.com,Games,Gaming,1267847,DarkScape Wiki,darkscape.wikia.com,Games,Gaming,8632,0.167621
+174,Final Fantasy Wiki,finalfantasy.wikia.com,Games,Gaming,1657,FFXIclopedia,ffxiclopedia.wikia.com,Games,Gaming,7119,0.088232
+7857,Vocaloid Wiki,vocaloid.wikia.com,Music,Music,22782,Vocaloid Lyrics Wiki,vocaloidlyrics.wikia.com,Music,Music,6005,0.169088
+147,Wookieepedia,starwars.wikia.com,Movies,Entertainment,644,Star Wars Fanon,swfanon.wikia.com,Movies,Entertainment,5203,0.021707
+10505,The Mighty Thor,mightythor.wikia.com,Comics,Movies,330278,Hey Kids Comics Wiki,heykidscomics.wikia.com,Comics,Entertainment,4663,0.028353
+113,Memory Alpha,memory-alpha.wikia.com,TV,Entertainment,147,Wookieepedia,starwars.wikia.com,Movies,Entertainment,4465,0.017574
+425,Uncyclopedia,uncyclopedia.wikia.com,Lifestyle,Humor,2020,Wikiality,wikiality.wikia.com,TV,Humor,4405,0.078472
+323,"Memory Beta, non-canon Star Trek Wiki",memory-beta.wikia.com,Books,Entertainment,745,Star Trek Expanded Universe,stexpanded.wikia.com,TV,Entertainment,4395,0.058115
+304,RuneScape Wiki,runescape.wikia.com,Games,Gaming,17200,RuneScape Classic Wiki,runescapeclassic.wikia.com,Games,Gaming,4037,0.021155
+113,Memory Alpha,memory-alpha.wikia.com,TV,Entertainment,425,Uncyclopedia,uncyclopedia.wikia.com,Lifestyle,Humor,4025,0.040658
+425,Uncyclopedia,uncyclopedia.wikia.com,Lifestyle,Humor,2717,Wackypedia,wackypedia.wikia.com,Lifestyle,Humor,3606,0.072975
+147,Wookieepedia,starwars.wikia.com,Movies,Entertainment,304,RuneScape Wiki,runescape.wikia.com,Games,Gaming,3495,0.009132
+113,Memory Alpha,memory-alpha.wikia.com,TV,Entertainment,745,Star Trek Expanded Universe,stexpanded.wikia.com,TV,Entertainment,3419,0.044967
+147,Wookieepedia,starwars.wikia.com,Movies,Entertainment,323,"Memory Beta, non-canon Star Trek Wiki",memory-beta.wikia.com,Books,Entertainment,3376,0.013201
+2446,Image Comics Database,imagecomics.wikia.com,Comics,Comics,330278,Hey Kids Comics Wiki,heykidscomics.wikia.com,Comics,Entertainment,3357,0.020570
+147,Wookieepedia,starwars.wikia.com,Movies,Entertainment,425,Uncyclopedia,uncyclopedia.wikia.com,Lifestyle,Humor,3146,0.013408
+304,RuneScape Wiki,runescape.wikia.com,Games,Gaming,425,Uncyclopedia,uncyclopedia.wikia.com,Lifestyle,Humor,3125,0.013731
+1763,Ice Hockey Wiki,icehockey.wikia.com,Lifestyle,Sports,171203,International Hockey Wiki,internationalhockey.wikia.com,Lifestyle,Sports,3070,0.039187
+2237,DC Database,dc.wikia.com,Comics,Lifestyle,155784,Dc Microheroes Wiki,dc-microheroes.wikia.com,Comics,Creative,2923,0.021938
+1318,Narutopedia,naruto.wikia.com,Comics,Anime,3156,Naruto Fanon Wiki,narutofanon.wikia.com,Comics,Entertainment,2870,0.053863
+323,"Memory Beta, non-canon Star Trek Wiki",memory-beta.wikia.com,Books,Entertainment,425,Uncyclopedia,uncyclopedia.wikia.com,Lifestyle,Humor,2846,0.028250
+17200,RuneScape Classic Wiki,runescapeclassic.wikia.com,Games,Gaming,691244,Old School RuneScape Wiki,oldschoolrunescape.wikia.com,Games,Gaming,2774,0.064513
+147,Wookieepedia,starwars.wikia.com,Movies,Entertainment,2237,DC Database,dc.wikia.com,Comics,Lifestyle,2754,0.008492
+304,RuneScape Wiki,runescape.wikia.com,Games,Gaming,490,WoWWiki,wowwiki.wikia.com,Games,Video Games,2733,0.009363
+113,Memory Alpha,memory-alpha.wikia.com,TV,Entertainment,304,RuneScape Wiki,runescape.wikia.com,Games,Gaming,2728,0.010967
+113,Memory Alpha,memory-alpha.wikia.com,TV,Entertainment,2237,DC Database,dc.wikia.com,Comics,Lifestyle,2727,0.014385
+425,Uncyclopedia,uncyclopedia.wikia.com,Lifestyle,Humor,509,Harry Potter Wiki,harrypotter.wikia.com,Books,Movies,2726,0.043386
+425,Uncyclopedia,uncyclopedia.wikia.com,Lifestyle,Humor,831,Muppet Wiki,muppet.wikia.com,TV,Movies,2706,0.032445
+2233,Marvel Database,marvel.wikia.com,Comics,Comics,10505,The Mighty Thor,mightythor.wikia.com,Comics,Movies,2695,0.042355
+147,Wookieepedia,starwars.wikia.com,Movies,Entertainment,10178,Star Wars: The Old Republic Wiki,swtor.wikia.com,Games,Gaming,2622,0.013182
+113,Memory Alpha,memory-alpha.wikia.com,TV,Entertainment,125,Tardis,tardis.wikia.com,TV,Comics,2609,0.027997
+159,The One Wiki to Rule Them All,lotr.wikia.com,Books,Movies,8990,The Notion Club Archive,merp.wikia.com,Games,Gaming,2536,0.109150
+425,Uncyclopedia,uncyclopedia.wikia.com,Lifestyle,Humor,7201,Liberapedia,liberapedia.wikia.com,Lifestyle,Politics,2524,0.057924
+2233,Marvel Database,marvel.wikia.com,Comics,Comics,2237,DC Database,dc.wikia.com,Comics,Lifestyle,2472,0.013477
+425,Uncyclopedia,uncyclopedia.wikia.com,Lifestyle,Humor,2237,DC Database,dc.wikia.com,Comics,Lifestyle,2468,0.014597
+147,Wookieepedia,starwars.wikia.com,Movies,Entertainment,1231,Alien Species,aliens.wikia.com,Books,Entertainment,2418,0.011888
+125,Tardis,tardis.wikia.com,TV,Comics,425,Uncyclopedia,uncyclopedia.wikia.com,Lifestyle,Humor,2377,0.032713
+374,Disney Wiki,disney.wikia.com,Movies,TV,330278,Hey Kids Comics Wiki,heykidscomics.wikia.com,Comics,Entertainment,2336,0.013697
+2237,DC Database,dc.wikia.com,Comics,Lifestyle,4866,SuperFriends Wiki,superfriends.wikia.com,TV,Entertainment,2268,0.016629
+147,Wookieepedia,starwars.wikia.com,Movies,Entertainment,2369,Star Wars Games,swgames.wikia.com,Games,Gaming,2242,0.011348
+147,Wookieepedia,starwars.wikia.com,Movies,Entertainment,490,WoWWiki,wowwiki.wikia.com,Games,Video Games,2209,0.007376
+113,Memory Alpha,memory-alpha.wikia.com,TV,Entertainment,330278,Hey Kids Comics Wiki,heykidscomics.wikia.com,Comics,Entertainment,2191,0.010051
+1242,Nintendo,nintendo.wikia.com,Games,Gaming,3473,MarioWiki,mario.wikia.com,Games,Gaming,2169,0.086677
+20,Religion-wiki,religion.wikia.com,Lifestyle,Philosophy,1286,Christianity Knowledge Base,christianity.wikia.com,Lifestyle,Philosophy,2143,0.054812
+125,Tardis,tardis.wikia.com,TV,Comics,323,"Memory Beta, non-canon Star Trek Wiki",memory-beta.wikia.com,Books,Entertainment,2116,0.022451
+425,Uncyclopedia,uncyclopedia.wikia.com,Lifestyle,Humor,330278,Hey Kids Comics Wiki,heykidscomics.wikia.com,Comics,Entertainment,2116,0.010725
+6294,Marvel Movies,marvel-movies.wikia.com,Movies,Comics,177996,Marvel Cinematic Universe Wiki,marvelcinematicuniverse.wikia.com,Movies,Entertainment,2081,0.130405
+147,Wookieepedia,starwars.wikia.com,Movies,Entertainment,330278,Hey Kids Comics Wiki,heykidscomics.wikia.com,Comics,Entertainment,2079,0.005892
+4385,Dark Horse Database,darkhorse.wikia.com,Comics,Entertainment,330278,Hey Kids Comics Wiki,heykidscomics.wikia.com,Comics,Entertainment,2071,0.013013
+847,LOST,lost.wikia.com,TV,Entertainment,11432,Lostpedia,lostpedia.wikia.com,TV,Entertainment,2022,0.101992
+113,Memory Alpha,memory-alpha.wikia.com,TV,Entertainment,3035,Fallout Wiki,fallout.wikia.com,Games,Gaming,2019,0.020816
+74,Pokémon Wiki,pokemon.wikia.com,Games,Gaming,1242,Nintendo,nintendo.wikia.com,Games,Gaming,2015,0.054906
+831,Muppet Wiki,muppet.wikia.com,TV,Movies,2342,Puppet Wikia,puppet.wikia.com,TV,Movies,2007,0.041310
+119,SGCommand,stargate.wikia.com,TV,Entertainment,425,Uncyclopedia,uncyclopedia.wikia.com,Lifestyle,Humor,1999,0.035695
+174,Final Fantasy Wiki,finalfantasy.wikia.com,Games,Gaming,304,RuneScape Wiki,runescape.wikia.com,Games,Gaming,1986,0.008932
+323,"Memory Beta, non-canon Star Trek Wiki",memory-beta.wikia.com,Books,Entertainment,2237,DC Database,dc.wikia.com,Comics,Lifestyle,1982,0.010383
+119,SGCommand,stargate.wikia.com,TV,Entertainment,113,Memory Alpha,memory-alpha.wikia.com,TV,Entertainment,1970,0.025655
+20,Religion-wiki,religion.wikia.com,Lifestyle,Philosophy,425,Uncyclopedia,uncyclopedia.wikia.com,Lifestyle,Humor,1933,0.025024
+390,Manga Wiki,manga.wikia.com,Comics,Entertainment,334678,Anime Voice-Over Wiki,animevoiceover.wikia.com,TV,Entertainment,1915,0.070461
+125,Tardis,tardis.wikia.com,TV,Comics,147,Wookieepedia,starwars.wikia.com,Movies,Entertainment,1887,0.008252
+147,Wookieepedia,starwars.wikia.com,Movies,Entertainment,3035,Fallout Wiki,fallout.wikia.com,Games,Gaming,1876,0.008090
+119,SGCommand,stargate.wikia.com,TV,Entertainment,147,Wookieepedia,starwars.wikia.com,Movies,Entertainment,1874,0.008854
+425,Uncyclopedia,uncyclopedia.wikia.com,Lifestyle,Humor,31618,Logopedia,logos.wikia.com,Lifestyle,Lifestyle,1847,0.024342
+2020,Wikiality,wikiality.wikia.com,TV,Humor,7201,Liberapedia,liberapedia.wikia.com,Lifestyle,Politics,1827,0.081031
+304,RuneScape Wiki,runescape.wikia.com,Games,Gaming,509,Harry Potter Wiki,harrypotter.wikia.com,Books,Movies,1809,0.008525
+174,Final Fantasy Wiki,finalfantasy.wikia.com,Games,Gaming,147,Wookieepedia,starwars.wikia.com,Movies,Entertainment,1806,0.007866
+663,Sonic News Network,sonic.wikia.com,Games,Gaming,3989,Mobius Encyclopaedia,archiesonic.wikia.com,Comics,Entertainment,1786,0.190121
+95,Scratchpad,scratchpad.wikia.com,Lifestyle,Creative,425,Uncyclopedia,uncyclopedia.wikia.com,Lifestyle,Humor,1765,0.012959
+425,Uncyclopedia,uncyclopedia.wikia.com,Lifestyle,Humor,975671,All The Tropes Wiki,allthetropes.wikia.com,TV,Movies,1749,0.017982
+2237,DC Database,dc.wikia.com,Comics,Lifestyle,9231,DC Movies Wiki,dcmovies.wikia.com,Movies,Entertainment,1747,0.013147
+968,Looney Tunes Wiki,looneytunes.wikia.com,TV,Entertainment,330278,Hey Kids Comics Wiki,heykidscomics.wikia.com,Comics,Entertainment,1736,0.010813
+425,Uncyclopedia,uncyclopedia.wikia.com,Lifestyle,Humor,4866,SuperFriends Wiki,superfriends.wikia.com,TV,Entertainment,1719,0.036071
+2020,Wikiality,wikiality.wikia.com,TV,Humor,2717,Wackypedia,wackypedia.wikia.com,Lifestyle,Humor,1716,0.058012
+113,Memory Alpha,memory-alpha.wikia.com,TV,Entertainment,833670,Cinemorgue Wiki,cinemorgue.wikia.com,Movies,Entertainment,1707,0.017705
+330278,Hey Kids Comics Wiki,heykidscomics.wikia.com,Comics,Entertainment,334678,Anime Voice-Over Wiki,animevoiceover.wikia.com,TV,Entertainment,1700,0.009922
+147,Wookieepedia,starwars.wikia.com,Movies,Entertainment,1239,SWG Wiki,swg.wikia.com,Games,Gaming,1690,0.008199
+1544,Villains Wiki,villains.wikia.com,TV,Entertainment,2237,DC Database,dc.wikia.com,Comics,Lifestyle,1685,0.010764
+113,Memory Alpha,memory-alpha.wikia.com,TV,Entertainment,509,Harry Potter Wiki,harrypotter.wikia.com,Books,Movies,1681,0.019862
+113,Memory Alpha,memory-alpha.wikia.com,TV,Entertainment,2717,Wackypedia,wackypedia.wikia.com,Lifestyle,Humor,1679,0.023288
+5502,Little Golden Books Wiki,littlegoldenbooks.wikia.com,Books,Books,330278,Hey Kids Comics Wiki,heykidscomics.wikia.com,Comics,Entertainment,1647,0.010393
+304,RuneScape Wiki,runescape.wikia.com,Games,Gaming,3035,Fallout Wiki,fallout.wikia.com,Games,Gaming,1641,0.007291
+831,Muppet Wiki,muppet.wikia.com,TV,Movies,330278,Hey Kids Comics Wiki,heykidscomics.wikia.com,Comics,Entertainment,1635,0.008109
+125,Tardis,tardis.wikia.com,TV,Comics,509,Harry Potter Wiki,harrypotter.wikia.com,Books,Movies,1627,0.028692
+393,DC Animated Universe,dcau.wikia.com,TV,Entertainment,2237,DC Database,dc.wikia.com,Comics,Lifestyle,1626,0.012208
+119,SGCommand,stargate.wikia.com,TV,Entertainment,323,"Memory Beta, non-canon Star Trek Wiki",memory-beta.wikia.com,Books,Entertainment,1622,0.020874
+174,Final Fantasy Wiki,finalfantasy.wikia.com,Games,Gaming,490,WoWWiki,wowwiki.wikia.com,Games,Video Games,1614,0.011681
+2166,NWNWiki,nwn.wikia.com,Games,Gaming,3595,NWN2Wiki,nwn2.wikia.com,Games,Gaming,1611,0.194424
+113,Memory Alpha,memory-alpha.wikia.com,TV,Entertainment,2020,Wikiality,wikiality.wikia.com,TV,Humor,1610,0.020204
+125,Tardis,tardis.wikia.com,TV,Comics,10242,Doctor Who Collectors Wiki,doctor-who-collectors.wikia.com,TV,Entertainment,1606,0.043679
+323,"Memory Beta, non-canon Star Trek Wiki",memory-beta.wikia.com,Books,Entertainment,304,RuneScape Wiki,runescape.wikia.com,Games,Gaming,1605,0.006409
+147,Wookieepedia,starwars.wikia.com,Movies,Entertainment,8774,The Clone Wars,clonewars.wikia.com,TV,Entertainment,1602,0.008121
+113,Memory Alpha,memory-alpha.wikia.com,TV,Entertainment,831,Muppet Wiki,muppet.wikia.com,TV,Movies,1595,0.015152
+304,RuneScape Wiki,runescape.wikia.com,Games,Gaming,1706,Elder Scrolls,elderscrolls.wikia.com,Games,Gaming,1590,0.006145
+374,Disney Wiki,disney.wikia.com,Movies,TV,831,Muppet Wiki,muppet.wikia.com,TV,Movies,1582,0.027280
+17200,RuneScape Classic Wiki,runescapeclassic.wikia.com,Games,Gaming,1267847,DarkScape Wiki,darkscape.wikia.com,Games,Gaming,1580,0.067718
